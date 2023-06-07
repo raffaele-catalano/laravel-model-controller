@@ -18,4 +18,10 @@ class PageController extends Controller
         $movies = Movie::all();
         return view('movies', compact('movies'));
     }
+
+    public function details($slug) {
+        $movies = Movie::where('slug', $slug)->first();
+
+        return view('details', compact('movies'));
+    }
 }

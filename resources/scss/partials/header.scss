@@ -1,0 +1,17 @@
+header {
+    .navbar {
+        .container-fluid {
+            .navbar-collapse {
+                .navbar-nav {
+                    .nav-item {
+                        .nav-link {
+                            &.active {
+                                background-color: lighten($color: #212529, $amount: 5%) !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
