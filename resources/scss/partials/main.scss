@@ -3,13 +3,40 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     .container {
+        display: flex;
+        flex-direction: column;
         // debug
-        border: 1px solid goldenrod;
+        // border: 1px solid goldenrod;
+        .btn-movies {
+            align-self: center;
+        }
+        .logo-container {
+            display: flex;
+            justify-content: center;
+        }
     }
     .movies-container {
         display: flex;
         flex-direction: column;
+        width: 80%;
+        height: 100%;
+        .row {
+            .card {
+                //debug
+                // border: 2px solid red;
+                img {
+                    align-self: center;
+                }
+                .btn-details {
+                    align-self: center;
+                }
+            }
+        }
+        .btn-home {
+            // width: 50px;
+            align-self: center;
+        }
     }
 }
