@@ -17,7 +17,9 @@
 
 <body>
 
-    @yield('content')
+    <main class="bg-dark text-light">
+        @yield('content')
+    </main>
 
 </body>
 
