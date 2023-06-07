@@ -24,13 +24,18 @@ main {
         height: 100%;
         .row {
             .card {
+                position: relative;
+                height: 490px;
                 //debug
                 // border: 2px solid red;
                 img {
                     align-self: center;
                 }
                 .btn-details {
-                    align-self: center;
+                    position: absolute;
+                    bottom: 5px;
+                    left: 25%;
+                    // align-self: center;
                 }
             }
         }
