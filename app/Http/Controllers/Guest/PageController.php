@@ -20,7 +20,10 @@ class PageController extends Controller
     }
 
     public function details($slug) {
+
         $movies = Movie::where('slug', $slug)->first();
+
+        if($movies === null) abort(404);
 
         return view('details', compact('movies'));
     }
