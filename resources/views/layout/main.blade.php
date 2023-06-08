@@ -7,7 +7,7 @@
     {{-- favicon --}}
     <link rel="shortcut icon" href="/favicon_moviedb.png" type="png">
 
-    <title>Laravel</title>
+    <title>TMDB</title>
 
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
