@@ -9,7 +9,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link border-warning text-warning fw-bold fs-5 {{ Route::currentRouteName() === 'movies' ? 'active' : '' }}"
-                            href="{{ route('movies') }}">Elenco Movies</a>
+                            href="{{ route('movies') }}">Movies List</a>
                     </li>
                     {{-- <li class="nav-item">
                         <a class="nav-link {{ Route::currentRouteName() === 'contacts' ? 'active' : '' }}"

@@ -6,7 +6,7 @@ header {
                     .nav-item {
                         .nav-link {
                             &.active {
-                                background-color: lighten($color: #212529, $amount: 5%) !important;
+                                background-color: lighten($color: #212529, $amount: 15%) !important;
                             }
                         }
                     }
